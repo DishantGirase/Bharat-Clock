@@ -1,9 +1,9 @@
 function CurrentTime() {
-  let currentDate = " 09 / 06 / 2026";
-  let currentTime = "9:33:14";
+  let time = new Date();
   return (
     <p>
-      this is the current time : {currentDate} - {currentTime}
+      this is the current time : {time.toLocaleDateString} -{" "}
+      {time.toLocaleTimeString}
     </p>
   );
 }
