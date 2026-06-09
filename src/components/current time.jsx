@@ -3,7 +3,7 @@ function CurrentTime() {
   let currentTime = "9:33:14";
   return (
     <p>
-      this is the current time: {currentDate} - {currentTime}
+      this is the current time : {currentDate} - {currentTime}
     </p>
   );
 }
